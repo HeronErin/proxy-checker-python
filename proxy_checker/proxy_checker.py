@@ -10,7 +10,6 @@ class ProxyChecker:
         self.ip = self.get_ip()
         self.proxy_judges = [
             'https://www.proxy-listen.de/azenv.php',
-            'http://www.sbjudge3.com/azenv.php',
             'http://mojeip.net.pl/asdfa/azenv.php',
             'http://httpheader.net/azenv.php',
             'http://pascal.hoez.free.fr/azenv.php'
